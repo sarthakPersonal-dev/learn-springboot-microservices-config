@@ -1,0 +1,6 @@
+db:
+   port: 9002
+
+   prototcol: http
+
+   host: qa
