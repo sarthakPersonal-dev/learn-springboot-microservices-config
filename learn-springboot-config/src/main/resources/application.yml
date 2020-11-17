@@ -1,0 +1,16 @@
+server.port: 8084
+ 
+demo.config.property: i come from application properties
+
+demo.list.values: one,two,three
+
+demo.map.values: "{key: 'value'}"
+   
+spring.cloud.config.uri: http://localhost:8888
+
+spring.cloud.config.enabled: true
+
+management.endpoints.web.exposure.include: "*"
+
+spring.application.name: learn-springboot-config
+   
